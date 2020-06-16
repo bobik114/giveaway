@@ -1,0 +1,45 @@
+.container {
+    background-color: #F0F1F1;
+    color: #3C3C3C;
+    display: flex;
+    height: 50%;
+    text-align: center;
+    .photo {
+        width: 50%;
+        background: content-box transparent 0% 0% no-repeat padding-box;
+        background-size: cover;
+        height: 95vh;
+    }
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 95vh;
+    h1 {
+        font-size: 38px;
+        margin: 30px;
+    }
+    img {
+        margin-bottom: 40px;
+    }
+    p {
+        width: 650px;
+        font-size: 30px;
+        line-height: 55px;
+    }
+    .signatureContainer {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        img {
+            margin-top: 50px;
+            margin-right: 100px;
+        }
+    }
+    
+}
+

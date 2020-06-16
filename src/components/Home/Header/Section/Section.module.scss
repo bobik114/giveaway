@@ -1,0 +1,52 @@
+.container {
+    height: 820px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.sectionWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+        color: #3C3C3C;
+        font-size: 38px;
+        margin: 10px 0;
+    }
+}
+
+.decoration {
+    margin: 20px;
+    width: 253px;
+    height: 33px;
+    background: url('../../../../assets/Decoration.svg');
+}
+
+.linkItems {
+    width: 674px;
+    display: flex;
+    justify-content: space-between;
+    div {
+        margin: 30px 0;
+        width: 310px;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: #3C3C3C 1px solid;
+        a {
+            color: #3C3C3C;
+            text-decoration: none;
+            line-height: 50px;
+            font-weight: 300;
+            font-size: 36px;
+            padding: 0 40px;
+            text-align: center;
+        }
+        
+
+    }
+}

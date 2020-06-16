@@ -1,0 +1,19 @@
+.list {
+    list-style: none;
+    display: flex;
+    width: 680px;
+    justify-content: space-between;
+}
+
+.listWrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.listItem {
+    padding: 10px 20px;
+}
+
+.listItem:hover {
+    border: 1px #3C3C3C solid;
+}

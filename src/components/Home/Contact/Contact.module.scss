@@ -1,0 +1,109 @@
+.contactSection { 
+    color: #3C3C3C;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    .twoInputsContainer {
+        display: flex;
+        justify-content: space-between;
+    }
+    .formContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        z-index: 1;
+        opacity: 1;
+        width: 35%;
+        h1 {
+            font-size: 38px;
+            text-align: center;
+            margin: 15px 0;
+        }
+        img {
+            text-align: center;
+            margin: 15px 0;
+            margin-bottom: 50px;
+        }
+        ::placeholder {
+            color: #3C3C3C26;
+            font-family: 'Open Sans';
+            font-size: 18px;
+        }
+        label {
+            margin-bottom: 12px;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        .twoInputs {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 30px;
+            width: 48%;
+            input {
+                background: none;
+                border: none;
+                border-bottom: 1px solid black;
+                
+                
+            }
+        }
+        #message {
+            background: none;
+            height: 100px;
+            border: none;
+            border-bottom: 1px solid black;
+            resize: none;
+            font-family: 'Open Sans';
+        }
+        .messageContainer {
+            display: flex;
+            flex-direction: column;
+        }
+        .submitBtnContainer {
+            display: flex;
+            justify-content: flex-end;
+        }
+        .submitBtn {
+            margin: 50px;
+            margin-right: 0;
+            padding: 15px 40px;
+            background: none;
+            border: 1px solid black;
+        }
+        .form {
+            width: 80%;
+        }
+    }
+}
+
+.contactBackground {
+    background-repeat: no-repeat;
+    z-index: 0;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    opacity: 0.3;
+    background-size: cover;
+}
+
+.footerContainer {
+    width: 100vw;
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    div {
+        width: 100px;
+    }
+    .socialContainer {
+        margin-right: 20px;
+        img {
+            margin: 0 10px;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+
+
+.container {
+    display: flex;
+}
+
+.homeHeroImage {
+    background: url('../../../assets/Home-Hero-Image.jpg') no-repeat;
+    background-position-x: right;
+    width: 50vw;
+    height: 100vh;
+}
+
+.sideContainer {
+    width: 45vw;
+}

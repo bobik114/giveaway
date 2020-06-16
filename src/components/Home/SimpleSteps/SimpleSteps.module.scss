@@ -1,0 +1,59 @@
+.decoration {
+    margin: 20px;
+    width: 253px;
+    height: 33px;
+    background: url('../../../assets/Decoration.svg');
+    background-size: inherit;
+    background-repeat: no-repeat;
+}
+
+.simpleStepsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2 {
+        margin-top: 55px;
+        font-size: 38px;
+    }
+}
+
+.simpleStepsMain {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #F0F1F1 0% 0% no-repeat padding-box;
+    padding: 75px 0;
+    text-align: center;
+    .simpleStepsBoxContainer {
+        display: flex;
+        justify-content: space-between;
+        width: 1000px;
+        h3 {
+            font-size: 18px;
+            margin: 10px;
+        }
+        hr {
+            width: 70px;
+        }
+    }
+}
+
+.linkWrapper {
+    margin: 40px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 310px;
+    height: 120px;
+    border: 1px solid black;
+    a {
+        font-size: 36px;
+        font-weight: 300;
+        text-align: center;
+        color: #3C3C3C;
+        text-decoration: none;
+        line-height: 50px;
+
+    }
+}
