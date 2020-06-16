@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/giveaway/static/css/main.abd87400.chunk.css",
+    "main.js": "/giveaway/static/js/main.21e5aeed.chunk.js",
+    "main.js.map": "/giveaway/static/js/main.21e5aeed.chunk.js.map",
+    "runtime-main.js": "/giveaway/static/js/runtime-main.86cedaad.js",
+    "runtime-main.js.map": "/giveaway/static/js/runtime-main.86cedaad.js.map",
+    "static/js/2.87d94332.chunk.js": "/giveaway/static/js/2.87d94332.chunk.js",
+    "static/js/2.87d94332.chunk.js.map": "/giveaway/static/js/2.87d94332.chunk.js.map",
+    "index.html": "/giveaway/index.html",
+    "precache-manifest.7895b6c651df5f22b8604cde74707195.js": "/giveaway/precache-manifest.7895b6c651df5f22b8604cde74707195.js",
+    "service-worker.js": "/giveaway/service-worker.js",
+    "static/css/main.abd87400.chunk.css.map": "/giveaway/static/css/main.abd87400.chunk.css.map",
+    "static/js/2.87d94332.chunk.js.LICENSE.txt": "/giveaway/static/js/2.87d94332.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/giveaway/static/media/People.6fa36651.jpg",
+    "static/media/Facebook.svg": "/giveaway/static/media/Facebook.df65b6c0.svg",
+    "static/media/Icon-1.svg": "/giveaway/static/media/Icon-1.91147906.svg",
+    "static/media/Icon-2.svg": "/giveaway/static/media/Icon-2.db91e33e.svg",
+    "static/media/Icon-3.svg": "/giveaway/static/media/Icon-3.2cfe9dfe.svg",
+    "static/media/Icon-4.svg": "/giveaway/static/media/Icon-4.436df0aa.svg",
+    "static/media/Instagram.svg": "/giveaway/static/media/Instagram.703479fd.svg",
+    "static/media/Signature.svg": "/giveaway/static/media/Signature.e54cfcfc.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.86cedaad.js",
+    "static/js/2.87d94332.chunk.js",
+    "static/css/main.abd87400.chunk.css",
+    "static/js/main.21e5aeed.chunk.js"
+  ]
+}
